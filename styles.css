@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+/*  line-height: 2;   */
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #D6E4E5;
+  padding-top: 100px;
+  position: relative;
+}
+
+
+.middle-container {
+  background-color: #FCF8F3;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cloud-1 {
+position: absolute;
+top: 50px;
+right: 300px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 300px;
+  bottom: 350px;
+}
+
+.mountain {
+  position: relative;
+  bottom: -4px;
+}
+
+.skill-row {
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto 100px auto;    /*previously I did margin-left: 25%; */
+  text-align: left;
+}
+
+.code {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  /*In case we dont't want the <p> to wrap around the image, we'll simply give
+    the <img> a class, and in css file we'll apply the following property i.e
+    clear: left (because the image is on the left). This will make sure that
+    the <p> is not wraped around the <img>, and the paragraph will be floating
+    below the <img>, and the <h3> above the <p> will still be wraped on the
+    right of the <img> that has floated to the left. So, in short "clear" can
+    be called as an anti-float property. */
+}
+
+.app-dev {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.equestrian {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.description {
+  clear: right;
+}
+
+.profile {
+  line-height: 2;
+  width: 40%;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.profile-heading {
+  margin: 0 auto 0 auto;
+}
+
+.profile-description {
+  color: #40514E;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.profile-hr {
+  margin: 0 auto 0 auto;
+  border-style: dotted none none;
+  border-width: 7px;
+  width: 4%;
+  border-color: #EDE4E0;
+}
+
+.my-skills-heading {
+  margin: 0;
+}
+
+.skills {
+  padding-top: 90px;
+}
+
+.design-description {
+  color: #40514E;
+}
+
+.app-dev-description {
+  color: #40514E;
+}
+
+.horse-racing-description {
+  color: #40514E;
+}
+
+.equestrian-hr {
+  margin: 0 auto 0 auto;
+  border-style: dotted none none;
+  border-width: 7px;
+  width: 4%;
+  border-color: #EDE4E0;
+}
+
+.name {
+  color: #EAF6F6;
+  margin: 40px auto 0 auto;
+  font-size: 0.75rem; /*It's 75% of 16 pixels*/
+}
+
+.footer-link {
+  font-size: 1.0625rem; /*18px*/
+  color: #11999E;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none; /*underline is by default*/
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.contact-me {
+  line-height: 2;
+  width: 40%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 100px;
+}
+
+.contact-me-heading {
+  margin: 0;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.contact-me-heading-h3 {
+  margin: 0;
+}
+
+.contact-me-description {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
